@@ -2574,7 +2574,8 @@ const poseImages = {
     "Dolphin Pose": "images/dolphin-pose.png",
     "Garland Pose": "images/garland-pose.png"
 };
-
+console.log("Pose image mappings:", poseImages);
+console.log("Available pose names:", yogaPoses.map(pose => pose.name));
 const poseGrid = document.getElementById("poseGrid");
 const poseSearch = document.getElementById("poseSearch");
 const noPoses = document.getElementById("noPoses");
